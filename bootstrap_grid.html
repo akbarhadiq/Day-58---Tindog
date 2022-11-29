@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- divide row by how many columns -->
+    <div class="row">
+        <div class="col" style="background-color:red; border: 1px solid;">
+            col
+        </div>
+        
+        <div class="col" style="background-color:blue; border: 1px solid;">
+            col
+        </div>
+        
+        <div class="col" style="background-color:yellow; border: 1px solid;">
+            col
+        </div>
+        
+    </div>
+    
+    <!-- divide row by determining col size -->
+    <!-- entire page width is equal to 12 col -->
+    <!-- divide it as you will, do not go over 12 col though -->
+
+    <div class="row">
+        <div class="col-6" style="background-color:green; border: 1px solid;">
+            col-6
+        </div>
+        
+        <div class="col-3" style="background-color:green; border: 1px solid;">
+            col-3
+        </div>
+        
+        <div class="col-1" style="background-color:green; border: 1px solid;">
+            col-1
+        </div>
+        
+        <div class="col-2" style="background-color:green; border: 1px solid;">
+            col-2
+        </div>
+    </div>
+
+    <!-- responsive columns (change how they fill the screen according to screen sizes) -->
+    <!-- see the responsiveness by minimizing the screen to the smallest real estate size -->
+    <div class="row">
+        <div class="col-md-6" style="background-color:DodgerBlue; border: 1px solid;">
+            col md-6 responsive
+        </div>
+        
+        <div class="col-md-6" style="background-color:DodgerBlue; border: 1px solid;">
+            col md-6 responsive
+        </div>
+        
+    </div>
+
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:MediumSeaGreen; border: 1px solid;">
+             col-lg-2 col-md-3 col-sm-6
+        </div>
+        
+        <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:MediumSeaGreen; border: 1px solid;">
+            col-lg-2 col-md-3 col-sm-6
+        </div>
+        
+        <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:MediumSeaGreen; border: 1px solid;">
+            col-lg-2 col-md-3 col-sm-6
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:MediumSeaGreen; border: 1px solid;">
+            col-lg-2 col-md-3 col-sm-6
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:MediumSeaGreen; border: 1px solid;">
+            col-lg-2 col-md-3 col-sm-6
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:MediumSeaGreen; border: 1px solid;">
+            col-lg-2 col-md-3 col-sm-6
+            <!-- column large 2, column medium 3 column small 6 -->
+        </div>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

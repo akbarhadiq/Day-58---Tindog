@@ -1,0 +1,165 @@
+/* global font */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* iphone dog */
+.dog-iphone{
+    transform: rotate(25deg);
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* navigation bar */
+.tindog-first{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.tindog-navbar{
+    padding-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+.navbar{
+   padding: 0 0 4.5rem; 
+}
+
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+
+
+/* global */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* download buttons */
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+/* app features */
+
+/* h3 text of features styling */
+.app-promise-feature{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* awesome font logo css edit */
+.features-logo{
+    color: #ef8172;
+    size: 150%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* change color when hovering on logo */
+.features-logo:hover{
+    color: #ff4c68 ;
+}
+
+/* center features text and add padding by accessing rows (feature-row) */
+.feature-row{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/* feature paragraph edit */
+.feature-paragraph{
+    color: #8f8f8f;
+}
+
+
+/* testimonials sections */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.testimonials-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* press sections */
+
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/* move carousel button padding */
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing  */
+
+#pricing{
+    padding: 100px ;
+}
+.pricing-card-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.pricing{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.pricing-row{
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
