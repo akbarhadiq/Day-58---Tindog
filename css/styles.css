@@ -8,11 +8,21 @@ body {
     transform: rotate(25deg);
     padding-bottom: 10px;
     width: 60%;
+    left: 100px;
+    position: relative
+}
+
+.dog-iphone-container{
+    position: relative;
 }
 
 #title{
     background-color: #ff4c68;
     color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
 }
 
 /* navigation bar */
@@ -64,6 +74,13 @@ h1 {
 
 /* app features */
 
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+
 /* h3 text of features styling */
 .app-promise-feature{
     font-family: 'Montserrat', sans-serif;
@@ -97,6 +114,7 @@ h1 {
 .feature-paragraph{
     color: #8f8f8f;
 }
+
 
 
 /* testimonials sections */
