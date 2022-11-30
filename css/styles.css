@@ -3,6 +3,28 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+@media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+  
+    .dog-iphone {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+
+/* global */
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+  
+
 /* iphone dog */
 .dog-iphone {
   transform: rotate(25deg);
@@ -49,14 +71,6 @@ body {
   padding-right: 18px;
 }
 
-/* global */
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
 
 .container-fluid {
   padding-left: 15%;
@@ -177,16 +191,7 @@ h1 {
   padding: 3% 2%;
 }
 
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
 
-  .dog-iphone {
-    position: static;
-    transform: rotate(0);
-  }
-}
 
 /* call to action */
 #cta {
